@@ -1,0 +1,12 @@
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.Domain\bin\Debug\net5.0\Agenda.Domain.deps.json
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.Domain\bin\Debug\net5.0\Agenda.Domain.dll
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.Domain\bin\Debug\net5.0\ref\Agenda.Domain.dll
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.Domain\bin\Debug\net5.0\Agenda.Domain.pdb
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.Domain\obj\Debug\net5.0\Agenda.Domain.csproj.AssemblyReference.cache
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.Domain\obj\Debug\net5.0\Agenda.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.Domain\obj\Debug\net5.0\Agenda.Domain.AssemblyInfoInputs.cache
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.Domain\obj\Debug\net5.0\Agenda.Domain.AssemblyInfo.cs
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.Domain\obj\Debug\net5.0\Agenda.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.Domain\obj\Debug\net5.0\Agenda.Domain.dll
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.Domain\obj\Debug\net5.0\ref\Agenda.Domain.dll
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.Domain\obj\Debug\net5.0\Agenda.Domain.pdb

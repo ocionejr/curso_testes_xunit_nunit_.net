@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ICrdI3w9AOr+asFnu3QsM8ZJYcusdYWA8KFpJBpQ3C+64pYcKV+WlMfgdab4e1/O/2cWmKGb+DtrQa5RzT7rIw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ocione.Junior\\OneDrive - Ceres Investimentos\\Área de Trabalho\\Workspace\\Agenda\\Agenda.DAL\\Agenda.DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ocione.Junior\\.nuget\\packages\\npgsql\\5.0.7\\npgsql.5.0.7.nupkg.sha512",
+    "C:\\Users\\Ocione.Junior\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

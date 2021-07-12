@@ -1,0 +1,15 @@
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.DAL\bin\Debug\net5.0\Agenda.DAL.deps.json
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.DAL\bin\Debug\net5.0\Agenda.DAL.dll
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.DAL\bin\Debug\net5.0\ref\Agenda.DAL.dll
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.DAL\bin\Debug\net5.0\Agenda.DAL.pdb
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.DAL\obj\Debug\net5.0\Agenda.DAL.csproj.AssemblyReference.cache
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.DAL\obj\Debug\net5.0\Agenda.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.DAL\obj\Debug\net5.0\Agenda.DAL.AssemblyInfoInputs.cache
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.DAL\obj\Debug\net5.0\Agenda.DAL.AssemblyInfo.cs
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.DAL\obj\Debug\net5.0\Agenda.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.DAL\obj\Debug\net5.0\Agenda.DAL.dll
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.DAL\obj\Debug\net5.0\ref\Agenda.DAL.dll
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.DAL\obj\Debug\net5.0\Agenda.DAL.pdb
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.DAL\bin\Debug\net5.0\Agenda.Domain.dll
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.DAL\bin\Debug\net5.0\Agenda.Domain.pdb
+C:\Users\Ocione.Junior\OneDrive - Ceres Investimentos\Área de Trabalho\Workspace\Agenda\Agenda.DAL\obj\Debug\net5.0\Agenda.DAL.csproj.CopyComplete
