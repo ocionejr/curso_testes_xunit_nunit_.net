@@ -2,23 +2,26 @@
 using NUnit.Framework;
 using Agenda.Domain;
 using System.Collections.Generic;
+using AutoFixture;
 
 namespace Agenda.DAL.Test
 {
     [TestFixture]
-    public class ContatosTest
+    public class ContatosTest : BaseTest
     {
-        Contatos _contatos; 
+        Contatos _contatos;
+        Fixture _fixture;
 
         [SetUp]
         public void SetUp()
         {
             _contatos = new Contatos();
+            _fixture = new Fixture();
         }
 
         //IncluirContatoTest
         [Test]
-        public void AdicionarContatoTest()
+        public void AdicionarContatoTest()          
         {
             var contato = new Contato()
             {
@@ -71,6 +74,7 @@ namespace Agenda.DAL.Test
         public void TearDown()
         {
             _contatos = null;
+            _fixture = null;
         }
     }
 }

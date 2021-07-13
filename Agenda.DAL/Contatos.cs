@@ -2,47 +2,57 @@
 using System;
 using Agenda.Domain;
 using System.Collections.Generic;
+using Dapper;
+using System.Linq;
 
 namespace Agenda.DAL
 {
     public class Contatos
     {
         string _strCon;
-        NpgsqlConnection _conn;
 
         public Contatos()
         {
+            //_strCon = ConfigurationManager.ConnectionStrings["con"].ConnectionString;
             _strCon = "Host=localhost;Port=5450;Database=pgsqltests;Username=pguser;Password=pgpassword;";
-            _conn = new NpgsqlConnection(_strCon);
         }
 
         public void Adicionar(Contato contato)
         {
-            _conn.Open();
+            using (var conn = new NpgsqlConnection(_strCon))
+            {
+                conn.Execute("INSERT into public.contato (id, nome) values (@Id, @Nome)", contato);
+                //conn.Open();
 
-            var sql = String.Format("INSERT INTO public.contato (id, nome) VALUES('{0}', '{1}');", contato.Id, contato.Nome);
+                //var sql = String.Format("SELECT * FROM public.contato WHERE id = '{0}';", contato.Id, contato.Nome);
 
-            var cmd = new NpgsqlCommand(sql, _conn);
-            cmd.ExecuteNonQuery();
-            _conn.Close();
+                //var cmd = new NpgsqlCommand(sql, conn);
+                //cmd.ExecuteNonQuery();
+            }
+
         }
 
         public Contato Obter(Guid id)
         {
-            _conn.Open();
+            Contato contato;
 
-            var sql = String.Format("SELECT * FROM public.contato WHERE id = '{0}';", id);
+            using (var conn = new NpgsqlConnection(_strCon)) {
+                contato = conn.QueryFirst<Contato>("SELECT * FROM public.contato WHERE id = @Id", new { Id = id });
+                //conn.Open();
 
-            var cmd = new NpgsqlCommand(sql, _conn);
+                //var sql = String.Format("SELECT * FROM public.contato WHERE id = '{0}';", id);
 
-            var dataReader = cmd.ExecuteReader();
-            dataReader.Read();
+                //var cmd = new NpgsqlCommand(sql, conn);
 
-            var contato = new Contato()
-            {
-                Id = Guid.Parse(dataReader["id"].ToString()),
-                Nome = dataReader["nome"].ToString()
-            };
+                //var dataReader = cmd.ExecuteReader();
+                //dataReader.Read();
+
+                //contato = new Contato()
+                //{
+                //    Id = Guid.Parse(dataReader["id"].ToString()),
+                //    Nome = dataReader["nome"].ToString()
+                //};
+            }
 
             return contato;
         }
@@ -50,23 +60,27 @@ namespace Agenda.DAL
         public List<Contato> ObterTodos()
         {
             var contatos = new List<Contato>();
-            _conn.Open();
-
-            var sql = "SELECT * FROM public.contato;";
-
-            var cmd = new NpgsqlCommand(sql, _conn);
-
-            var dataReader = cmd.ExecuteReader();
-
-            while (dataReader.Read())
+            using (var conn = new NpgsqlConnection(_strCon))
             {
-                contatos.Add(
-                    new Contato()
-                    {
-                        Id = Guid.Parse(dataReader["id"].ToString()),
-                        Nome = dataReader["nome"].ToString()
-                    }
-                );
+                contatos = conn.Query<Contato>("SELECT * FROM public.contato").ToList();
+                //conn.Open();
+
+                //var sql = "SELECT * FROM public.contato;";
+
+                //var cmd = new NpgsqlCommand(sql, conn);
+
+                //var dataReader = cmd.ExecuteReader();
+
+                //while (dataReader.Read())
+                //{
+                //    contatos.Add(
+                //        new Contato()
+                //        {
+                //            Id = Guid.Parse(dataReader["id"].ToString()),
+                //            Nome = dataReader["nome"].ToString()
+                //        }
+                //    );
+                //}
             }
 
             return contatos;
